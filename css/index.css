@@ -164,11 +164,88 @@ footer p {
     margin-top: 60px;
 }
 
+/* Service Page */
+
+.service .service-cta {	
+	margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.service .service-cta .services-header-img {
+    margin-bottom: 20px; 
+}
+
+.service .service-cta .service-cta-text h1 {
+   font-size: 23px;
+}
+
+.service .main-content .services-content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;   
+	flex-wrap: wrap;	
+}
+
+.service .main-content .services-content .text-content {
+	background: #f4f3f4;
+	border: 1px solid black;	
+	padding: 20px 20px;
+	width: 47%;
+	margin-bottom: 40px;
+}
+
+.service .main-content .content-row4 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.service .main-content .content-row4 .about-services {		
+	width: 47%;	
+}
+
+.service .main-content .content-row4 .android-develop {
+    width: 47%;    
+}
+
+.services-info-img {
+    max-width: 100%;
+}
+.service .main-content .content-row4 .about-services p {	
+	margin-bottom: 15px;
+}	
+
+.service ul.ls-square {
+	list-style-type: square;
+	padding-left: 16px;
+}
+
+.service ul.ls-square li {
+	padding: 5px;
+}
+
+.service .learn-btn {
+	margin-top: 22px;
+	border-radius: 4px;
+	padding: 8px 32px;
+	border: 1px solid black;			
+	width: 136px;	
+	background: white;
+}
+
+.service .general-line hr {
+   margin-top: 0px;
+}
+
+
 
 @media (max-width: 800px) {
 
     .container {
        width: 100%;
+       font-size: 18px;
+       padding-left: 0.25%;
+       padding-right: 0.25%;
     }
  
     header {
@@ -214,10 +291,31 @@ footer p {
        padding-left: 1%;     
     }
 
+    /* Service Page */
+    .service .service-cta .services-header-img {
+        max-width: 100%; 
+    }
+
+    .service .service-cta .service-cta-text{
+        width: 100%;
+     }
+
+     .service .main-content .services-content {
+         width: 100%;
+     }
+     
+    
+
+     
+
+
 }
 
 @media (max-width: 500px) {
 
+    .container {       
+        font-size: 20px;        
+     }
 
     header nav {
         flex-direction: column;       
@@ -253,5 +351,35 @@ footer p {
         padding-bottom: 5%; 	
     }    
     
+     /* Service Page */
+     .service .service-cta .services-header-img {
+        margin: 4% 0; 
+    }
+
+    .service .main-content .services-content {
+        flex-direction: column;       
+    }
+
+    .service .main-content .services-content .text-content {
+        width: 100%;       
+    }
+
+    .service .main-content .content-row4 {
+        flex-direction: column;       
+    }
+
+    .service .main-content .content-row4 .about-services {		
+        width: 100%;	
+    }
+    
+    .service .main-content .content-row4 .android-develop {
+        width: 100%;    
+        text-align: center;
+        margin-top: 2%;
+    }
+    
 
 }
+
+
+
