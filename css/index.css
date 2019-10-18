@@ -336,8 +336,8 @@ footer p {
      }
 
      .main-content .top-content .text-content {
-        padding-left: 0; 
-        padding-right: 0; 	  
+        padding-left: 0.25%;  
+        padding-right: 0.25%;  	  
         padding-bottom: 5%;     
      }
 
@@ -346,10 +346,14 @@ footer p {
      }
  
     .main-content .bottom-content .text-content {
-        padding-left: 0; 
-        padding-right: 0; 
+        padding-left: 0.25%;  
+        padding-right: 0.25%; 
         padding-bottom: 5%; 	
     }    
+
+    .contact {
+        padding-left: 0.25%;     
+     }
     
      /* Service Page */
      .service .service-cta .services-header-img {
